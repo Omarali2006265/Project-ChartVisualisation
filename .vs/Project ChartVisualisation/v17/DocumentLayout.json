@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\report2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|c:\\users\\yali\\downloads\\project chartvisualisation\\project chartvisualisation\\report1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\report2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|c:\\users\\yali\\downloads\\project chartvisualisation\\project chartvisualisation\\report1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|c:\\users\\yali\\downloads\\project chartvisualisation\\project chartvisualisation\\report2.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report2.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|c:\\users\\yali\\downloads\\project chartvisualisation\\project chartvisualisation\\report2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\report1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\report1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EDC410CC-325D-4D2B-AC39-900F46BD5DCA}|Project ChartVisualisation.csproj|solutionrelative:report1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Report1.cs",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.cs",
+              "RelativeDocumentMoniker": "Report1.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.cs",
+              "RelativeToolTip": "Report1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:42:55.471Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Report2.cs",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.cs",
+              "RelativeDocumentMoniker": "Report2.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.cs",
+              "RelativeToolTip": "Report2.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvzQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:22:28.744Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Report2.resx",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.resx",
+              "RelativeDocumentMoniker": "Report2.resx",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.resx",
+              "RelativeToolTip": "Report2.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-09-24T13:06:57.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report1.resx",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.resx",
+              "RelativeDocumentMoniker": "Report1.resx",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.resx",
+              "RelativeToolTip": "Report1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2026-09-24T13:06:57.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.Designer.cs",
+              "RelativeDocumentMoniker": "Report1.Designer.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.Designer.cs",
+              "RelativeToolTip": "Report1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T13:06:57.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Report2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.cs",
+              "RelativeDocumentMoniker": "Report2.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.cs [Design]",
+              "RelativeToolTip": "Report2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:14:01.355Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\MainMenu.cs [Design]",
+              "RelativeToolTip": "MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:13:34.371Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainMenu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\MainMenu.Designer.cs",
+              "RelativeDocumentMoniker": "MainMenu.Designer.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\MainMenu.Designer.cs",
+              "RelativeToolTip": "MainMenu.Designer.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAtwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:12:20.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\MainMenu.cs",
+              "RelativeDocumentMoniker": "MainMenu.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\MainMenu.cs",
+              "RelativeToolTip": "MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T22:05:20.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Report2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.Designer.cs",
+              "RelativeDocumentMoniker": "Report2.Designer.cs",
+              "ToolTip": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report2.Designer.cs",
+              "RelativeToolTip": "Report2.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T14:48:23.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Report1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\yali\\Downloads\\Project ChartVisualisation\\Project ChartVisualisation\\Report1.cs",
+              "RelativeDocumentMoniker": "Report1.cs",
+              "ToolTip": "C:\\Users\\yali\\OneDrive\\Desktop\\ProjectEnigma\\Project ChartVisualisation\\Report1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Desktop\\ProjectEnigma\\Project ChartVisualisation\\Report1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T21:38:42.272Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\bin\Debug\SHUber-ProjectDatabaseandSystemModelling.db.db
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\bin\Debug\Project ChartVisualisation.exe.config
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\bin\Debug\Project ChartVisualisation.exe
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\bin\Debug\Project ChartVisualisation.pdb
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\bin\Debug\System.Data.SQLite.dll
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\bin\Debug\System.Data.SQLite.xml
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project ChartVisualisation.csproj.AssemblyReference.cache
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project_ChartVisualisation.MainMenu.resources
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project_ChartVisualisation.Properties.Resources.resources
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project_ChartVisualisation.Report1.resources
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project_ChartVisualisation.Report2.resources
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project ChartVisualisation.csproj.GenerateResource.cache
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project ChartVisualisation.csproj.CoreCompileInputs.cache
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project .92BE3449.Up2Date
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project ChartVisualisation.exe
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project ChartVisualisation.pdb
+C:\Users\yali\OneDrive\Desktop\ProjectEnigma\Project ChartVisualisation\obj\Debug\Project ChartVisualisation.exe.config
