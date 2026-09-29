@@ -1,49 +1,72 @@
-[README_SHUber.md](https://github.com/user-attachments/files/32797336/README_SHUber.md)
+[README_SHUber.md](https://github.com/user-attachments/files/32798084/README_SHUber.md)
+
 # SHUBer Taxi Management System
 
-A C# Windows Forms desktop application for managing a taxi business, backed by a SQLite relational database. It stores customers, drivers, vehicles, journeys, payments and ratings, and uses SQL reports and charts to show which drivers and customers perform best.
+A C# Windows Forms application that reads a SQLite taxi database and turns it into two bar-chart reports: the top 5 drivers and the top 5 customers. The SQL does the ranking and the app plots the results.
 
-Built as a first-year project for the BEng (Hons) Software Engineering course at Sheffield Hallam University.
-
+Built as a first-year project for the *Databases & System Modelling* module on the BEng (Hons) Software Engineering course at Sheffield Hallam University.
 
 ## Features
 
-- **Relational database** with six linked tables: `Customer`, `Driver`, `Journey`, `Payment`, `Rating` and `Vehicle`
-- **Top 5 drivers report:** ranks drivers by the number of journeys rated 4.5 or higher
-- **Top 5 customers report:** ranks customers by recent rides, total spending and 5-star ratings given
-- **Chart visualisation** of the report results inside the Windows Forms interface
-- **Data manipulation** through SQL queries (joins, aggregation, ordering and filtering)
+- **Main menu** that opens either report and returns to it from each report screen
+- **Report 1: Top 5 drivers.** Ranks drivers by the number of journeys rated 4.5 or higher
+- **Report 2: Top 5 customers.** Ranks customers by rides taken in the last 3 months, keeping only customers who also meet the spending and 5-star rating thresholds below
+- **Bar charts** for both reports, drawn with the built-in .NET `System.Windows.Forms.DataVisualization` chart control, with value labels and axis titles
+- **Relational database** with six linked tables and foreign keys that cascade on update and delete
 
 ## Tech Stack
 
 | Area | Technology |
 |---|---|
 | Language | C# |
-| UI | Windows Forms |
-| Database | SQLite |
-| Queries | SQL |
+| UI | Windows Forms (.NET Framework 4.8) |
+| Database | SQLite via `System.Data.SQLite` 1.0.119 (NuGet) |
+| Charts | `System.Windows.Forms.DataVisualization` |
 | IDE | Visual Studio 2022 |
 
-## Database Design
+## Database
 
-| Table | Purpose |
-|---|---|
-| Customer | People who book journeys |
-| Driver | Drivers who complete journeys |
-| Vehicle | Vehicles used by drivers |
-| Journey | Each trip, linking a customer, driver and vehicle |
-| Payment | Payment made for a journey |
-| Rating | Rating given to a driver for a journey |
+The database file is `SHUber-ProjectDatabaseandSystemModelling.db.db`. It holds sample data for 10 customers, 10 drivers, 10 vehicles and 40 journeys, with a rating and a payment for each journey.
 
-<!-- Optional: add an ER diagram image here, e.g. ![ER diagram](screenshots/erd.png) -->
+| Table | Purpose | Key relationships |
+|---|---|---|
+| `Customer` | Customer details and average rating | Primary key `Cust_ID` |
+| `Driver` | Driver details and average rating | Primary key `Driver_ID` |
+| `Vehicle` | A driver's vehicle (registration, make, model, colour, year) | `Driver_ID` refers to `Driver` |
+| `Journey` | Each trip: pickup, drop-off, date and time, cost, ratings | `Cust_ID` refers to `Customer`, `Driver_ID` refers to `Driver` |
+| `Rating` | Customer and driver ratings and comments for a journey | `Journey_ID` refers to `Journey` |
+| `Payment` | Amount, date, method and status of a payment | `Journey_ID` refers to `Journey` |
+
+All foreign keys use `ON DELETE CASCADE ON UPDATE CASCADE`.
+
+## The Reports
+
+### Report 1: Top 5 drivers by highly rated journeys
+
+Joins `Journey` to `Driver`, keeps journeys where `Driver_Rating >= 4.5`, groups by driver and returns the five drivers with the most such journeys.
+
+Concepts used: `INNER JOIN`, `WHERE`, `GROUP BY`, `COUNT`, `ORDER BY ... DESC`, `LIMIT`.
+
+### Report 2: Top 5 customers by rides, spend and 5-star ratings
+
+Joins `Customer`, `Journey` and `Rating` for journeys between 1 August and 31 October 2025. A customer is only included if they have:
+
+- at least **3 rides** in the period
+- an average monthly spend above **£100** (total cost divided by 3)
+- at least **5 five-star ratings**
+
+Customers are ranked by number of rides and the chart plots the top five.
+
+Concepts used: three-table `INNER JOIN`, `GROUP BY`, `HAVING` with several conditions, `COUNT(CASE WHEN ...)`, `ROUND`, `SUM`, `LIMIT`.
+
+With the included sample data, only two customers meet all three thresholds, so Report 2 shows two bars rather than five.
 
 ## Getting Started
 
 ### Prerequisites
 
 - Windows
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) with the **.NET desktop development** workload
-- [FILL IN: .NET version, e.g. .NET Framework 4.8 / .NET 8]
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) with the **.NET desktop development** workload (includes .NET Framework 4.8)
 
 ### Run the project
 
@@ -51,23 +74,32 @@ Built as a first-year project for the BEng (Hons) Software Engineering course at
    ```bash
    git clone https://github.com/Omarali2006265/Project-ChartVisualisation.git
    ```
-2. Open the `.sln` file in Visual Studio 2022.
-3. Restore NuGet packages if prompted. [FILL IN: e.g. System.Data.SQLite]
-4. Make sure the SQLite database file is in [FILL IN: folder/file name] and is copied to the output directory.
-5. Press **F5** to build and run.
+2. Open `Project ChartVisualisation.sln` in Visual Studio 2022.
+3. Let NuGet restore the packages (`System.Data.SQLite.Core` 1.0.119) if prompted.
+4. Press **F5** to build and run. The database file is copied to the output folder automatically, and the app opens it using a relative path.
 
-## How It Works
+## Project Structure
 
-1. The app connects to the SQLite database when it starts.
-2. SQL queries join the Journey, Driver, Customer and Rating tables to build the reports.
-3. The results are shown in the Windows Forms interface and plotted as charts.
+```
+Project ChartVisualisation/
+├── MainMenu.cs / .Designer.cs     Main menu with buttons for each report
+├── Report1.cs / .Designer.cs      Top 5 drivers query and chart
+├── Report2.cs / .Designer.cs      Top 5 customers query and chart
+├── Program.cs                     Application entry point (opens MainMenu)
+├── SHUber-ProjectDatabaseandSystemModelling.db.db   SQLite database
+└── packages.config                NuGet dependencies
+```
 
-## What I Learned
+## Known Limitations
 
-- Designing and normalising a relational database
-- Writing SQL queries that combine several tables
-- Connecting a C# Windows Forms application to SQLite
-- Presenting query results as charts
+- The date range in Report 2 is hardcoded to August to October 2025 rather than calculated as "the last 3 months".
+- The app only reads data. It has no screens for adding, editing or deleting customers, drivers or journeys.
+
+## Possible Improvements
+
+- Calculate Report 2's date range from the current date
+- Add forms for creating and editing journeys, drivers and customers
+- Show the report results in a table beside each chart
 
 ## Author
 
